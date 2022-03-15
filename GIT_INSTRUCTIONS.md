@@ -1,4 +1,4 @@
-If you working on your own machine or are having issues with nbgitpuller, first clone this git repository if it doesn't exist
+If you working on your own machine or are having issues syncing the workshop git repository, please consult these suggested directions. First, clone this git repository if it doesn't exist
 
         git clone git@github.com:NCAR/GPU_workshop.git
 
@@ -22,4 +22,4 @@ If at a future time you want to revisit any personal work done in a specific ses
 
         git checkout session##
 
-We will do our best to minimize changes to each session's course materials once published but nonetheless, management of any merge conflicts will be left to the user. Lastly, we encourage regular improvement and contributions to this course material. Feel free to submit pull requests via a forked repository using the guidleines or reach out to workshop organizers with your feedback.
+We will do our best to minimize changes to each session's course materials once published but nonetheless, management of any merge conflicts will be left to the user. Lastly, we encourage regular improvement and contributions to this course material. Feel free to submit pull requests via a forked repository or reach out to workshop organizers with your feedback.

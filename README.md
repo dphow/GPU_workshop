@@ -47,6 +47,8 @@ We will design this course to be self-contained but given the limited time and t
 ## Instructions and Setting Up Your Environment
 We will primarily be using interactive Jupyter notebooks and Jupyter's built-in development platform to present material and streamline hands-on sessions for users as well as provide other exercices. Each session will have a provided link in the associated session folder to directly open relevant content on NCAR's Casper HPC cluster using the [nbgitpuller](https://jupyterhub.github.io/nbgitpuller/use.html) interface. This allows learners to pull in content automatically to their `$HOME` folder on GLADE, Casper's storage system, without needing to interact with Github. Learners should be able to edit sourced content freely with minimal fear of lost progress or merge issues given nbgitpuller's [automatic merge behavior](https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html).
 
-However, if you are not using Casper or encounter issues updating your repository to the latest version, please consult the recommended steps in [GIT_INSTRUCTIONS](GIT_INSTRUCTIONS.md) for using git or reach out to workshop organizers. 
+**DISCLAIMER** `nbgitpuller` is presently having some issues on NCAR's Jupyter Hub cluster. In the meantime, we will explain how to source this content through git commands manually.
+
+If you are not using Casper or encounter issues updating your repository to the latest version, please consult the recommended steps in [GIT_INSTRUCTIONS](GIT_INSTRUCTIONS.md) for using git or reach out to workshop organizers. 
 
 For each interactive session, the respective session folder will feature a Jupyter Notebook of the presented material as well as folders named with the language and/or programming style used in any relevant examples presented. Consult the `README.md` file in each session folder for any specifics about running provided code.
